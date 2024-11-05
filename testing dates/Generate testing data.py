@@ -38,11 +38,11 @@ def date_generator(x):
         return random_date(start, end)
     elif x == 5 or x == 6:
         start = datetime.date(2000, 1, 1)
-        end = datetime.date.today()
+        end = datetime.date.now()
         return random_date(start, end)
     else:
         start = datetime.date(1800, 1, 1)
-        end = datetime.date.today()
+        end = datetime.date.now()
         return random_date(start, end)
 
 def last_digit(x):
